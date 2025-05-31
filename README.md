@@ -15,3 +15,21 @@ un système de suivi d’exercices avec votre webcam:
 6. Retourner un feedback visuel et/ou audio si l’exécution est incorrecte, ou afficher le décompte des répétitions réussies.
 
 7. Enregistrer les données (nombre de reps, timestamps, taux de réussite) pour un suivi longitudinal.
+
+
+
+## Matériel et prérequis logiciels
+- Webcam
+- Environnement Python
+    
+    Python ≥ 3.7 (idéalement 3.8 ou 3.9 pour compatibilité bibliothèques récentes).
+
+    Un environnement virtuel (venv, conda, etc.) pour gérer les dépendances.
+
+- Bibliothèques principales
+
+    OpenCV (cv2) pour la capture vidéo, le traitement d’image et l’affichage.
+
+    MediaPipe (module mediapipe) pour la détection de pose en temps réel (pose estimation). MediaPipe Pose fournit les coordonnées 3D approximatives d’une vingtaine de landmarks (points clés) sur le corps.
+
+    NumPy pour les calculs vectoriels sur les points clés.
