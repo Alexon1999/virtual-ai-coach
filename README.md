@@ -20,8 +20,9 @@ un système de suivi d’exercices avec votre webcam:
 
 ## Matériel et prérequis logiciels
 - Webcam
+    un webcam capable de suivre votre mouvement (webcam obsbot tiny 2 lite)
 - Environnement Python
-    
+
     Python ≥ 3.7 (idéalement 3.8 ou 3.9 pour compatibilité bibliothèques récentes).
 
     Un environnement virtuel (venv, conda, etc.) pour gérer les dépendances.
